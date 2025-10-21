@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial N.2 - Proyectos de Programación</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        /* Definición de colores pastel */
+        :root {
+            --bs-pastel-pink: #F8D7DA;
+            /* Rosado claro */
+            --bs-pastel-lilac: #E6E6FA;
+            /* Lila muy claro */
+            --bs-pastel-purple: #D8BFD8;
+            /* Morado claro (Thistle) */
+            --bs-pastel-light-purple: #F0E6F7;
+            /* Un morado aún más claro para el fondo */
+            --bs-pastel-darker-lilac: #CCCCFF;
+            /* Un lila un poco más fuerte para encabezados de tabla */
+        }
+
+        body {
+            background-color: var(--bs-pastel-light-purple);
+            /* Fondo general de la página en un lila muy suave */
+        }
+
+        .header-info {
+            line-height: 1.5;
+            color: #6c757d !important;
+            /* Asegura un buen contraste */
+        }
+
+        .text-primary-pastel {
+            color: #8A2BE2 !important;
+            /* Un tono de morado para el texto principal */
+        }
+
+        .bg-primary-pastel {
+            background-color: var(--bs-pastel-purple) !important;
+            /* Fondo del encabezado de la tarjeta */
+        }
+
+        .card-header-pastel {
+            background-color: var(--bs-pastel-purple) !important;
+            /* Lila/Morado para el encabezado de la tarjeta */
+            color: #ffffff !important;
+            /* Texto blanco en el encabezado para contraste */
+        }
+
+        .table-pastel-background {
+            background-color: var(--bs-pastel-lilac);
+            /* Fondo de la tabla en lila claro */
+        }
+
+        .table-hover tbody tr:hover {
+            background-color: var(--bs-pastel-pink) !important;
+            /* Rosado claro al pasar el mouse */
+        }
+
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: var(--bs-pastel-lilac);
+            /* Lila claro para filas impares */
+        }
+
+        .table-striped tbody tr:nth-of-type(even) {
+            background-color: var(--bs-pastel-light-purple);
+            /* Morado muy claro para filas pares */
+        }
+
+        .link-pastel {
+            color: #6a0dad !important;
+            /* Un morado más oscuro para los enlaces */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-5">
+
+        <header class="text-center mb-5 border-bottom pb-3">
+            <p class="h6 header-info">
+                Universidad de San Carlos de Guatemala – USAC
+                <br>
+                Escuela de Formación de Profesores de Enseñanza Media – EFPEM
+                <br>
+                Proyectos de Programación – 2025
+            </p>
+        </header>
+
+        <h1 class="display-4 text-center mb-4 text-primary-pastel">¡Bienvenido!</h1>
+        <hr class="mb-4">
+
+        <section class="text-center mb-5">
+            <p class="h3 fw-bold text-uppercase text-primary-pastel">PARCIAL N.2</p>
+            <p class="lead text-secondary">LISTA DE PÁGINAS Y ENLACES</p>
+        </section>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <div class="card shadow">
+                    <div class="card-header card-header-pastel">
+                        <h5 class="mb-0">Contenido del Parcial</h5>
+                    </div>
+                    <div class="card-body p-0">
+                        <table class="table table-striped table-hover mb-0 table-pastel-background">
+                            <thead>
+                                <tr class="bg-pastel-lilac-header">
+                                    <th scope="col" style="width: 30%;" class="bg-primary-pastel text-white">Sección
+                                    </th>
+                                    <th scope="col" class="bg-primary-pastel text-white">Enlace</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>PÁGINA 1</td>
+                                    <td>
+                                        <a href="pagina1.html" class="btn btn-link link-pastel text-start p-0">PROYECTOS
+                                            DE SOFTWARE</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>PÁGINA 2</td>
+                                    <td>
+                                        <a href="pagina2.html"
+                                            class="btn btn-link link-pastel text-start p-0">APLICACIONES WEB</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>PÁGINA 3</td>
+                                    <td>
+                                        <a href="pagina3.html"
+                                            class="btn btn-link link-pastel text-start p-0">FRAMEWORK</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>CRÉDITOS</td>
+                                    <td>
+                                        <a href="pagina4.html"
+                                            class="btn btn-link link-pastel text-start p-0">CRÉDITOS</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
